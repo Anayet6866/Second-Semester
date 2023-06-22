@@ -1,0 +1,2647 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(255, 178, 102, 255), stop:0.55 rgba(235, 148, 61, 255), stop:0.98 rgba(0, 0, 0, 255), stop:1 rgba(0, 0, 0, 0));
+color:white;</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="styleSheet">
+    <string notr="true">font: 10pt &quot;MS Shell Dlg 2&quot;;
+font: 10pt &quot;MS Shell Dlg 2&quot;;
+</string>
+   </property>
+   <widget class="QStackedWidget" name="stackedWidget">
+    <property name="geometry">
+     <rect>
+      <x>-60</x>
+      <y>10</y>
+      <width>800</width>
+      <height>600</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">Border:none;</string>
+    </property>
+    <property name="currentIndex">
+     <number>5</number>
+    </property>
+    <widget class="QWidget" name="Main_page">
+     <property name="styleSheet">
+      <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(255, 178, 102, 255), stop:0.55 rgba(235, 148, 61, 255), stop:0.98 rgba(0, 0, 0, 255), stop:1 rgba(0, 0, 0, 0));</string>
+     </property>
+     <widget class="QToolButton" name="toolButton">
+      <property name="geometry">
+       <rect>
+        <x>140</x>
+        <y>50</y>
+        <width>511</width>
+        <height>27</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Trust Bank</string>
+      </property>
+     </widget>
+     <widget class="QToolButton" name="toolButton_2">
+      <property name="geometry">
+       <rect>
+        <x>440</x>
+        <y>90</y>
+        <width>211</width>
+        <height>27</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Secured your money.</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton">
+      <property name="geometry">
+       <rect>
+        <x>540</x>
+        <y>500</y>
+        <width>83</width>
+        <height>29</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Next</string>
+      </property>
+     </widget>
+     <zorder>toolButton_2</zorder>
+     <zorder>pushButton</zorder>
+     <zorder>toolButton</zorder>
+    </widget>
+    <widget class="QWidget" name="Aim_page">
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <widget class="QToolButton" name="toolButton_3">
+      <property name="geometry">
+       <rect>
+        <x>310</x>
+        <y>50</y>
+        <width>151</width>
+        <height>27</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <property name="text">
+       <string>Aim</string>
+      </property>
+     </widget>
+     <widget class="QToolButton" name="toolButton_4">
+      <property name="geometry">
+       <rect>
+        <x>220</x>
+        <y>90</y>
+        <width>331</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>To secure peoople's money.</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_2">
+      <property name="geometry">
+       <rect>
+        <x>640</x>
+        <y>320</y>
+        <width>83</width>
+        <height>29</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Next</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_32">
+      <property name="geometry">
+       <rect>
+        <x>80</x>
+        <y>320</y>
+        <width>83</width>
+        <height>29</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Back</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="Reg_Sing">
+     <widget class="QPushButton" name="pushButton_8">
+      <property name="geometry">
+       <rect>
+        <x>280</x>
+        <y>120</y>
+        <width>281</width>
+        <height>29</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Register</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_9">
+      <property name="geometry">
+       <rect>
+        <x>280</x>
+        <y>170</y>
+        <width>281</width>
+        <height>29</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Log In</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_33">
+      <property name="geometry">
+       <rect>
+        <x>110</x>
+        <y>380</y>
+        <width>83</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Back</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="Reg_1st">
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <widget class="QGroupBox" name="groupBox">
+      <property name="geometry">
+       <rect>
+        <x>230</x>
+        <y>60</y>
+        <width>351</width>
+        <height>471</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string/>
+      </property>
+      <widget class="QToolButton" name="toolButton_5">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>50</y>
+         <width>101</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Name</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="name_box">
+       <property name="geometry">
+        <rect>
+         <x>130</x>
+         <y>50</y>
+         <width>191</width>
+         <height>28</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QToolButton" name="toolButton_6">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>100</y>
+         <width>101</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Mail</string>
+       </property>
+      </widget>
+      <widget class="QToolButton" name="toolButton_7">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>150</y>
+         <width>101</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Phone Number</string>
+       </property>
+      </widget>
+      <widget class="QToolButton" name="toolButton_8">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>200</y>
+         <width>101</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Password</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="mail_box">
+       <property name="geometry">
+        <rect>
+         <x>130</x>
+         <y>100</y>
+         <width>191</width>
+         <height>28</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="phnnum_box">
+       <property name="geometry">
+        <rect>
+         <x>130</x>
+         <y>150</y>
+         <width>191</width>
+         <height>28</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="pass_box">
+       <property name="geometry">
+        <rect>
+         <x>130</x>
+         <y>200</y>
+         <width>191</width>
+         <height>28</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_10">
+       <property name="geometry">
+        <rect>
+         <x>140</x>
+         <y>250</y>
+         <width>83</width>
+         <height>29</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Register</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_45">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>410</y>
+         <width>83</width>
+         <height>29</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Back</string>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="Login">
+     <widget class="QGroupBox" name="groupBox_2">
+      <property name="geometry">
+       <rect>
+        <x>230</x>
+        <y>50</y>
+        <width>371</width>
+        <height>471</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string/>
+      </property>
+      <widget class="QToolButton" name="toolButton_9">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>60</y>
+         <width>101</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Name</string>
+       </property>
+      </widget>
+      <widget class="QToolButton" name="toolButton_10">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>90</y>
+         <width>101</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Email</string>
+       </property>
+      </widget>
+      <widget class="QToolButton" name="toolButton_11">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>120</y>
+         <width>101</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Password</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_11">
+       <property name="geometry">
+        <rect>
+         <x>250</x>
+         <y>160</y>
+         <width>83</width>
+         <height>29</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Log in</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_46">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>390</y>
+         <width>83</width>
+         <height>29</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Back</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_5">
+       <property name="geometry">
+        <rect>
+         <x>130</x>
+         <y>60</y>
+         <width>201</width>
+         <height>28</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_6">
+       <property name="geometry">
+        <rect>
+         <x>130</x>
+         <y>90</y>
+         <width>201</width>
+         <height>28</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_7">
+       <property name="geometry">
+        <rect>
+         <x>130</x>
+         <y>120</y>
+         <width>201</width>
+         <height>28</height>
+        </rect>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="Menu_2">
+     <widget class="QGroupBox" name="groupBox_3">
+      <property name="geometry">
+       <rect>
+        <x>190</x>
+        <y>120</y>
+        <width>441</width>
+        <height>391</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border:none;</string>
+      </property>
+      <property name="title">
+       <string/>
+      </property>
+      <widget class="QPushButton" name="pushButton_12">
+       <property name="geometry">
+        <rect>
+         <x>140</x>
+         <y>30</y>
+         <width>141</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Deposit</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_13">
+       <property name="geometry">
+        <rect>
+         <x>140</x>
+         <y>70</y>
+         <width>141</width>
+         <height>29</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Withdraw</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_14">
+       <property name="geometry">
+        <rect>
+         <x>140</x>
+         <y>150</y>
+         <width>141</width>
+         <height>29</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Loan</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_15">
+       <property name="geometry">
+        <rect>
+         <x>140</x>
+         <y>190</y>
+         <width>141</width>
+         <height>29</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Fixed Deposit</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_16">
+       <property name="geometry">
+        <rect>
+         <x>140</x>
+         <y>110</y>
+         <width>141</width>
+         <height>29</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Pay-Bill</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_17">
+       <property name="geometry">
+        <rect>
+         <x>140</x>
+         <y>280</y>
+         <width>141</width>
+         <height>29</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Exit</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="education">
+       <property name="geometry">
+        <rect>
+         <x>140</x>
+         <y>230</y>
+         <width>141</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Education Loan</string>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="Reg_success">
+     <widget class="QToolButton" name="toolButton_15">
+      <property name="geometry">
+       <rect>
+        <x>140</x>
+        <y>190</y>
+        <width>551</width>
+        <height>27</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Congratulations!You have register your account successfully.Thank You.</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_18">
+      <property name="geometry">
+       <rect>
+        <x>550</x>
+        <y>440</y>
+        <width>83</width>
+        <height>29</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Next</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="Menue_1">
+     <widget class="QPushButton" name="pushButton_3">
+      <property name="geometry">
+       <rect>
+        <x>290</x>
+        <y>60</y>
+        <width>221</width>
+        <height>29</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>My Profile</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_4">
+      <property name="geometry">
+       <rect>
+        <x>290</x>
+        <y>100</y>
+        <width>221</width>
+        <height>29</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Authority</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_5">
+      <property name="geometry">
+       <rect>
+        <x>290</x>
+        <y>150</y>
+        <width>221</width>
+        <height>29</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Bank Details</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_6">
+      <property name="geometry">
+       <rect>
+        <x>290</x>
+        <y>200</y>
+        <width>221</width>
+        <height>29</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Branches</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_7">
+      <property name="geometry">
+       <rect>
+        <x>290</x>
+        <y>250</y>
+        <width>221</width>
+        <height>29</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Announcement</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_47">
+      <property name="geometry">
+       <rect>
+        <x>80</x>
+        <y>450</y>
+        <width>111</width>
+        <height>29</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Back</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_42">
+      <property name="geometry">
+       <rect>
+        <x>630</x>
+        <y>450</y>
+        <width>81</width>
+        <height>29</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Exit</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="Dep_Money">
+     <widget class="QGroupBox" name="groupBox_4">
+      <property name="geometry">
+       <rect>
+        <x>210</x>
+        <y>140</y>
+        <width>381</width>
+        <height>341</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">Border:none;</string>
+      </property>
+      <property name="title">
+       <string>Deposite money</string>
+      </property>
+      <widget class="QToolButton" name="toolButton_16">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>50</y>
+         <width>131</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>My Deposit</string>
+       </property>
+      </widget>
+      <widget class="QToolButton" name="toolButton_18">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>130</y>
+         <width>131</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Deposit money</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_19">
+       <property name="geometry">
+        <rect>
+         <x>240</x>
+         <y>230</y>
+         <width>83</width>
+         <height>29</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Confirm</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_48">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>230</y>
+         <width>83</width>
+         <height>29</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Back</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label">
+       <property name="geometry">
+        <rect>
+         <x>170</x>
+         <y>50</y>
+         <width>151</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_10">
+       <property name="geometry">
+        <rect>
+         <x>170</x>
+         <y>130</y>
+         <width>161</width>
+         <height>28</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QToolButton" name="toolButton_12">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>90</y>
+         <width>131</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Email</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit">
+       <property name="geometry">
+        <rect>
+         <x>170</x>
+         <y>90</y>
+         <width>161</width>
+         <height>31</height>
+        </rect>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="With_Money">
+     <widget class="QGroupBox" name="groupBox_5">
+      <property name="geometry">
+       <rect>
+        <x>220</x>
+        <y>80</y>
+        <width>531</width>
+        <height>441</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">Border:none;</string>
+      </property>
+      <property name="title">
+       <string>Withdraw</string>
+      </property>
+      <widget class="QToolButton" name="toolButton_22">
+       <property name="geometry">
+        <rect>
+         <x>80</x>
+         <y>70</y>
+         <width>141</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Current Money</string>
+       </property>
+      </widget>
+      <widget class="QToolButton" name="toolButton_24">
+       <property name="geometry">
+        <rect>
+         <x>80</x>
+         <y>180</y>
+         <width>141</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Withdraw Money</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_21">
+       <property name="geometry">
+        <rect>
+         <x>320</x>
+         <y>270</y>
+         <width>83</width>
+         <height>29</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Confrim</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_49">
+       <property name="geometry">
+        <rect>
+         <x>80</x>
+         <y>270</y>
+         <width>83</width>
+         <height>29</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Back</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_3">
+       <property name="geometry">
+        <rect>
+         <x>270</x>
+         <y>70</y>
+         <width>131</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_11">
+       <property name="geometry">
+        <rect>
+         <x>270</x>
+         <y>180</y>
+         <width>131</width>
+         <height>28</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_60">
+       <property name="geometry">
+        <rect>
+         <x>80</x>
+         <y>120</y>
+         <width>141</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Email</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_2">
+       <property name="geometry">
+        <rect>
+         <x>270</x>
+         <y>120</y>
+         <width>131</width>
+         <height>31</height>
+        </rect>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="Loan_1st">
+     <widget class="QGroupBox" name="groupBox_6">
+      <property name="geometry">
+       <rect>
+        <x>130</x>
+        <y>60</y>
+        <width>611</width>
+        <height>401</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">Border:none;</string>
+      </property>
+      <property name="title">
+       <string>Dear sir/madam.Assalamu alaikum Warahmatullah.</string>
+      </property>
+      <widget class="QToolButton" name="toolButton_28">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>50</y>
+         <width>571</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>You can take loan from 10,000-200,000 with 3% interest rate</string>
+       </property>
+      </widget>
+      <widget class="QToolButton" name="toolButton_29">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>90</y>
+         <width>571</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>You can take loan from 200,001-500,000- with 5% interest rate</string>
+       </property>
+      </widget>
+      <widget class="QToolButton" name="toolButton_30">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>130</y>
+         <width>571</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>You can take loan from 500,001-700,000-- with 8% interest rate</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_23">
+       <property name="geometry">
+        <rect>
+         <x>510</x>
+         <y>360</y>
+         <width>83</width>
+         <height>29</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>I Agree</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_50">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>360</y>
+         <width>83</width>
+         <height>29</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Back</string>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="Loan_Form">
+     <widget class="QGroupBox" name="groupBox_7">
+      <property name="geometry">
+       <rect>
+        <x>180</x>
+        <y>60</y>
+        <width>451</width>
+        <height>421</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">Border:none;</string>
+      </property>
+      <property name="title">
+       <string>Loan form</string>
+      </property>
+      <widget class="QToolButton" name="toolButton_31">
+       <property name="geometry">
+        <rect>
+         <x>50</x>
+         <y>40</y>
+         <width>181</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+       <property name="text">
+        <string>Purpose</string>
+       </property>
+      </widget>
+      <widget class="QToolButton" name="toolButton_32">
+       <property name="geometry">
+        <rect>
+         <x>50</x>
+         <y>70</y>
+         <width>181</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Enter ammount</string>
+       </property>
+      </widget>
+      <widget class="QToolButton" name="toolButton_33">
+       <property name="geometry">
+        <rect>
+         <x>50</x>
+         <y>100</y>
+         <width>181</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>How long will it take you</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_24">
+       <property name="geometry">
+        <rect>
+         <x>310</x>
+         <y>340</y>
+         <width>83</width>
+         <height>29</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Next</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_51">
+       <property name="geometry">
+        <rect>
+         <x>60</x>
+         <y>340</y>
+         <width>83</width>
+         <height>29</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Back</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_12">
+       <property name="geometry">
+        <rect>
+         <x>240</x>
+         <y>40</y>
+         <width>191</width>
+         <height>28</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_13">
+       <property name="geometry">
+        <rect>
+         <x>240</x>
+         <y>70</y>
+         <width>191</width>
+         <height>28</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_14">
+       <property name="geometry">
+        <rect>
+         <x>240</x>
+         <y>100</y>
+         <width>191</width>
+         <height>28</height>
+        </rect>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="pagee12">
+     <widget class="QToolButton" name="toolButton_37">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>160</y>
+        <width>741</width>
+        <height>141</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">Border:none;</string>
+      </property>
+      <property name="text">
+       <string>Congratulations! you have got the  loan successfully!!</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_25">
+      <property name="geometry">
+       <rect>
+        <x>690</x>
+        <y>410</y>
+        <width>83</width>
+        <height>29</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Next</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="pagee13">
+     <widget class="QToolButton" name="toolButton_38">
+      <property name="geometry">
+       <rect>
+        <x>100</x>
+        <y>60</y>
+        <width>641</width>
+        <height>181</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">Border:none;</string>
+      </property>
+      <property name="text">
+       <string>You can  deposit for a certain  time,we will give you 6% interest in your money. </string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_26">
+      <property name="geometry">
+       <rect>
+        <x>660</x>
+        <y>400</y>
+        <width>83</width>
+        <height>29</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>I agree</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_52">
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>400</y>
+        <width>83</width>
+        <height>29</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Back</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="Fdr">
+     <widget class="QGroupBox" name="groupBox_8">
+      <property name="geometry">
+       <rect>
+        <x>220</x>
+        <y>150</y>
+        <width>371</width>
+        <height>341</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">Border:none;</string>
+      </property>
+      <property name="title">
+       <string>Fixed Deposit</string>
+      </property>
+      <widget class="QToolButton" name="toolButton_39">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>90</y>
+         <width>131</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Enter Ammount</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_27">
+       <property name="geometry">
+        <rect>
+         <x>280</x>
+         <y>160</y>
+         <width>83</width>
+         <height>29</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Confrim</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_53">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>160</y>
+         <width>83</width>
+         <height>29</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Back</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_15">
+       <property name="geometry">
+        <rect>
+         <x>160</x>
+         <y>90</y>
+         <width>191</width>
+         <height>28</height>
+        </rect>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="pagee15">
+     <widget class="QToolButton" name="toolButton_50">
+      <property name="geometry">
+       <rect>
+        <x>210</x>
+        <y>140</y>
+        <width>401</width>
+        <height>27</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">Border:none;</string>
+      </property>
+      <property name="text">
+       <string>Congratulations! Your fixed deposite has been confirmed</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_34">
+      <property name="geometry">
+       <rect>
+        <x>620</x>
+        <y>320</y>
+        <width>83</width>
+        <height>29</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Next</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="Pay_Bill">
+     <widget class="QGroupBox" name="groupBox_9">
+      <property name="geometry">
+       <rect>
+        <x>140</x>
+        <y>110</y>
+        <width>521</width>
+        <height>311</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">Border:none;</string>
+      </property>
+      <property name="title">
+       <string>Pay Your Utilyty Bill</string>
+      </property>
+      <widget class="QToolButton" name="toolButton_41">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>90</y>
+         <width>241</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Enter Your ID</string>
+       </property>
+      </widget>
+      <widget class="QToolButton" name="toolButton_43">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>130</y>
+         <width>241</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Enter Ammount</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="Pay_Bill_2">
+       <property name="geometry">
+        <rect>
+         <x>440</x>
+         <y>280</y>
+         <width>83</width>
+         <height>29</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Confirm</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_54">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>280</y>
+         <width>83</width>
+         <height>29</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Back</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_16">
+       <property name="geometry">
+        <rect>
+         <x>260</x>
+         <y>90</y>
+         <width>231</width>
+         <height>28</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_17">
+       <property name="geometry">
+        <rect>
+         <x>260</x>
+         <y>130</y>
+         <width>231</width>
+         <height>28</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_28">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>50</y>
+         <width>241</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Email</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_3">
+       <property name="geometry">
+        <rect>
+         <x>260</x>
+         <y>50</y>
+         <width>231</width>
+         <height>31</height>
+        </rect>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="pagee17">
+     <widget class="QToolButton" name="toolButton_51">
+      <property name="geometry">
+       <rect>
+        <x>130</x>
+        <y>150</y>
+        <width>541</width>
+        <height>27</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">Border:none;</string>
+      </property>
+      <property name="text">
+       <string>Successfully you have paid your utility bill</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_35">
+      <property name="geometry">
+       <rect>
+        <x>340</x>
+        <y>300</y>
+        <width>83</width>
+        <height>29</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Back</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="MBY">
+     <widget class="QPushButton" name="pushButton_29">
+      <property name="geometry">
+       <rect>
+        <x>270</x>
+        <y>60</y>
+        <width>221</width>
+        <height>29</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Managing Body</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_30">
+      <property name="geometry">
+       <rect>
+        <x>270</x>
+        <y>110</y>
+        <width>221</width>
+        <height>29</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Bank Hostory</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_31">
+      <property name="geometry">
+       <rect>
+        <x>270</x>
+        <y>160</y>
+        <width>221</width>
+        <height>29</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Yearly  Report</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_55">
+      <property name="geometry">
+       <rect>
+        <x>340</x>
+        <y>230</y>
+        <width>83</width>
+        <height>29</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Back</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="pagee19">
+     <widget class="QGroupBox" name="groupBox_10">
+      <property name="geometry">
+       <rect>
+        <x>210</x>
+        <y>90</y>
+        <width>461</width>
+        <height>461</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">Border:none;</string>
+      </property>
+      <property name="title">
+       <string>Managing Body</string>
+      </property>
+      <widget class="QToolButton" name="toolButton_45">
+       <property name="geometry">
+        <rect>
+         <x>50</x>
+         <y>20</y>
+         <width>321</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Managing director</string>
+       </property>
+      </widget>
+      <widget class="QToolButton" name="toolButton_46">
+       <property name="geometry">
+        <rect>
+         <x>50</x>
+         <y>60</y>
+         <width>321</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Md.Mohiuddin </string>
+       </property>
+      </widget>
+      <widget class="QToolButton" name="toolButton_47">
+       <property name="geometry">
+        <rect>
+         <x>50</x>
+         <y>100</y>
+         <width>321</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>CEO</string>
+       </property>
+      </widget>
+      <widget class="QToolButton" name="toolButton_48">
+       <property name="geometry">
+        <rect>
+         <x>50</x>
+         <y>150</y>
+         <width>321</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>A.K.M. Afjal </string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_56">
+       <property name="geometry">
+        <rect>
+         <x>180</x>
+         <y>210</y>
+         <width>83</width>
+         <height>29</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Back</string>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="pageee20">
+     <widget class="QToolButton" name="toolButton_49">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>30</y>
+        <width>751</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">Border:none;</string>
+      </property>
+      <property name="text">
+       <string>Trust  Bank was established on 31 December 1981. This was the first joint venture private bank in Bangladesh... </string>
+      </property>
+     </widget>
+     <widget class="QToolButton" name="toolButton_52">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>80</y>
+        <width>751</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">Border:none;</string>
+      </property>
+      <property name="text">
+       <string>With an ambition to secure its place as the leading service provider, creating lasting value for its clientele  and</string>
+      </property>
+     </widget>
+     <widget class="QToolButton" name="toolButton_53">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>130</y>
+        <width>751</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">Border:none;</string>
+      </property>
+      <property name="text">
+       <string>and employees and particularly for the community it operates in,</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_36">
+      <property name="geometry">
+       <rect>
+        <x>690</x>
+        <y>320</y>
+        <width>83</width>
+        <height>29</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Next</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_58">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>320</y>
+        <width>83</width>
+        <height>29</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Back</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="Yearly_Report">
+     <widget class="QGroupBox" name="groupBox_11">
+      <property name="geometry">
+       <rect>
+        <x>170</x>
+        <y>110</y>
+        <width>511</width>
+        <height>381</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">Border:none;</string>
+      </property>
+      <property name="title">
+       <string>Yearly Report</string>
+      </property>
+      <widget class="QToolButton" name="toolButton_54">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>20</y>
+         <width>451</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>session 22-23</string>
+       </property>
+      </widget>
+      <widget class="QToolButton" name="toolButton_55">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>60</y>
+         <width>201</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>number of savings annount</string>
+       </property>
+      </widget>
+      <widget class="QToolButton" name="toolButton_56">
+       <property name="geometry">
+        <rect>
+         <x>240</x>
+         <y>60</y>
+         <width>241</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>15390</string>
+       </property>
+      </widget>
+      <widget class="QToolButton" name="toolButton_57">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>90</y>
+         <width>201</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>number of CC account</string>
+       </property>
+      </widget>
+      <widget class="QToolButton" name="toolButton_58">
+       <property name="geometry">
+        <rect>
+         <x>240</x>
+         <y>90</y>
+         <width>241</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>850</string>
+       </property>
+      </widget>
+      <widget class="QToolButton" name="toolButton_59">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>120</y>
+         <width>201</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Given loan</string>
+       </property>
+      </widget>
+      <widget class="QToolButton" name="toolButton_60">
+       <property name="geometry">
+        <rect>
+         <x>240</x>
+         <y>120</y>
+         <width>241</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>15core</string>
+       </property>
+      </widget>
+      <widget class="QToolButton" name="toolButton_61">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>150</y>
+         <width>201</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>New property</string>
+       </property>
+      </widget>
+      <widget class="QToolButton" name="toolButton_62">
+       <property name="geometry">
+        <rect>
+         <x>240</x>
+         <y>150</y>
+         <width>241</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>own 2 plot in Dhaka city</string>
+       </property>
+      </widget>
+      <widget class="QToolButton" name="toolButton_63">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>180</y>
+         <width>201</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>total Yearlt revinue</string>
+       </property>
+      </widget>
+      <widget class="QToolButton" name="toolButton_64">
+       <property name="geometry">
+        <rect>
+         <x>240</x>
+         <y>180</y>
+         <width>241</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>4 thousand core</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_37">
+       <property name="geometry">
+        <rect>
+         <x>200</x>
+         <y>240</y>
+         <width>83</width>
+         <height>29</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Next</string>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="Bank_Details">
+     <widget class="QToolButton" name="toolButton_65">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>30</y>
+        <width>771</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Trust Bank was established on 31 December 1981.[3] [4] This was the first joint venture private bank in Bangladesh. </string>
+      </property>
+     </widget>
+     <widget class="QToolButton" name="toolButton_66">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>60</y>
+        <width>771</width>
+        <height>27</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string> On 14 November 2007 Bangladesh bank approved the name trust Bank.A former deputy managing director was </string>
+      </property>
+     </widget>
+     <widget class="QToolButton" name="toolButton_67">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>90</y>
+        <width>771</width>
+        <height>27</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>charged with embezzling 3.25 billion taka from the bank.In February 2008, Trust Bank was fined 100 million taka for </string>
+      </property>
+     </widget>
+     <widget class="QToolButton" name="toolButton_68">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>120</y>
+        <width>771</width>
+        <height>27</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>violating securities law with excessive marginal loans.The majority of these loans from the merchant banking wings</string>
+      </property>
+     </widget>
+     <widget class="QToolButton" name="toolButton_69">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>150</y>
+        <width>771</width>
+        <height>27</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>of Trust Bank went to bank employees and their relatives...</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_38">
+      <property name="geometry">
+       <rect>
+        <x>670</x>
+        <y>200</y>
+        <width>83</width>
+        <height>29</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Next</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="Branch">
+     <widget class="QToolButton" name="toolButton_70">
+      <property name="geometry">
+       <rect>
+        <x>130</x>
+        <y>110</y>
+        <width>571</width>
+        <height>27</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>We will input our all information obout our all branches of the whole Bangladesh</string>
+      </property>
+     </widget>
+     <widget class="QToolButton" name="toolButton_71">
+      <property name="geometry">
+       <rect>
+        <x>130</x>
+        <y>160</y>
+        <width>571</width>
+        <height>27</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Stay connected with us</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_39">
+      <property name="geometry">
+       <rect>
+        <x>330</x>
+        <y>210</y>
+        <width>83</width>
+        <height>29</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Next</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="Announcement">
+     <widget class="QGroupBox" name="groupBox_14">
+      <property name="geometry">
+       <rect>
+        <x>260</x>
+        <y>90</y>
+        <width>301</width>
+        <height>271</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">Border:none;</string>
+      </property>
+      <property name="title">
+       <string>Announcement</string>
+      </property>
+      <widget class="QPushButton" name="pushButton_41">
+       <property name="geometry">
+        <rect>
+         <x>80</x>
+         <y>70</y>
+         <width>121</width>
+         <height>29</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Vacation</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_59">
+       <property name="geometry">
+        <rect>
+         <x>100</x>
+         <y>170</y>
+         <width>83</width>
+         <height>29</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Back</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_40">
+       <property name="geometry">
+        <rect>
+         <x>80</x>
+         <y>120</y>
+         <width>121</width>
+         <height>29</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Recruitement</string>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="Vacation">
+     <widget class="QGroupBox" name="groupBox_12">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>0</y>
+        <width>771</width>
+        <height>551</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">Border:none;</string>
+      </property>
+      <property name="title">
+       <string>list of vacation</string>
+      </property>
+      <widget class="QToolButton" name="toolButton_73">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>20</y>
+         <width>411</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Shaheed Day and International Mother Language Day</string>
+       </property>
+      </widget>
+      <widget class="QToolButton" name="toolButton_74">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>50</y>
+         <width>411</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>*Shab-e-Barat</string>
+       </property>
+      </widget>
+      <widget class="QToolButton" name="toolButton_75">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>80</y>
+         <width>411</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Independence and National Day</string>
+       </property>
+      </widget>
+      <widget class="QToolButton" name="toolButton_76">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>110</y>
+         <width>411</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Bengali New Year's Day</string>
+       </property>
+      </widget>
+      <widget class="QToolButton" name="toolButton_77">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>140</y>
+         <width>411</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>*Shab-e-Qadar</string>
+       </property>
+      </widget>
+      <widget class="QToolButton" name="toolButton_78">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>170</y>
+         <width>411</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>* Jumatul Wida</string>
+       </property>
+      </widget>
+      <widget class="QToolButton" name="toolButton_79">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>200</y>
+         <width>411</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>*Eid-ul-Fitr</string>
+       </property>
+      </widget>
+      <widget class="QToolButton" name="toolButton_80">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>230</y>
+         <width>411</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>May Day</string>
+       </property>
+      </widget>
+      <widget class="QToolButton" name="toolButton_81">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>260</y>
+         <width>411</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>*Buddha Purnima (Boishakhi Purnima)	</string>
+       </property>
+      </widget>
+      <widget class="QToolButton" name="toolButton_82">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>290</y>
+         <width>411</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>*Eid-ul-Azha</string>
+       </property>
+      </widget>
+      <widget class="QToolButton" name="toolButton_83">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>320</y>
+         <width>411</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Bank Holiday</string>
+       </property>
+      </widget>
+      <widget class="QToolButton" name="toolButton_84">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>350</y>
+         <width>411</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>*Moharrum (Ashura)</string>
+       </property>
+      </widget>
+      <widget class="QToolButton" name="toolButton_85">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>380</y>
+         <width>411</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>National Mourning Day</string>
+       </property>
+      </widget>
+      <widget class="QToolButton" name="toolButton_86">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>410</y>
+         <width>411</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>*Janmashtami</string>
+       </property>
+      </widget>
+      <widget class="QToolButton" name="toolButton_87">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>440</y>
+         <width>411</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>*Eid-e-Miladun-Nabi (S)</string>
+       </property>
+      </widget>
+      <widget class="QToolButton" name="toolButton_88">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>470</y>
+         <width>411</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Durga Puja (Bijoya Dashami)</string>
+       </property>
+      </widget>
+      <widget class="QToolButton" name="toolButton_89">
+       <property name="geometry">
+        <rect>
+         <x>420</x>
+         <y>20</y>
+         <width>341</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>21 February, Tuesday</string>
+       </property>
+      </widget>
+      <widget class="QToolButton" name="toolButton_90">
+       <property name="geometry">
+        <rect>
+         <x>420</x>
+         <y>50</y>
+         <width>341</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>08 March, Wednesday</string>
+       </property>
+      </widget>
+      <widget class="QToolButton" name="toolButton_91">
+       <property name="geometry">
+        <rect>
+         <x>420</x>
+         <y>80</y>
+         <width>341</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>26 March,Sunday</string>
+       </property>
+      </widget>
+      <widget class="QToolButton" name="toolButton_92">
+       <property name="geometry">
+        <rect>
+         <x>420</x>
+         <y>110</y>
+         <width>341</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>	14 April, Friday</string>
+       </property>
+      </widget>
+      <widget class="QToolButton" name="toolButton_93">
+       <property name="geometry">
+        <rect>
+         <x>420</x>
+         <y>140</y>
+         <width>341</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>19 April, Wednesday</string>
+       </property>
+      </widget>
+      <widget class="QToolButton" name="toolButton_94">
+       <property name="geometry">
+        <rect>
+         <x>420</x>
+         <y>170</y>
+         <width>341</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>21 April, Friday</string>
+       </property>
+      </widget>
+      <widget class="QToolButton" name="toolButton_95">
+       <property name="geometry">
+        <rect>
+         <x>420</x>
+         <y>200</y>
+         <width>341</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>21, 22 &amp; 23 April, Friday, Saturday &amp; Sunday</string>
+       </property>
+      </widget>
+      <widget class="QToolButton" name="toolButton_96">
+       <property name="geometry">
+        <rect>
+         <x>420</x>
+         <y>230</y>
+         <width>341</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>01 May, Monday</string>
+       </property>
+      </widget>
+      <widget class="QToolButton" name="toolButton_97">
+       <property name="geometry">
+        <rect>
+         <x>420</x>
+         <y>260</y>
+         <width>341</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>04 May, Thursday</string>
+       </property>
+      </widget>
+      <widget class="QToolButton" name="toolButton_98">
+       <property name="geometry">
+        <rect>
+         <x>420</x>
+         <y>290</y>
+         <width>341</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>28, 29 &amp; 30 June, Wednesday, Thursday &amp; Friday</string>
+       </property>
+      </widget>
+      <widget class="QToolButton" name="toolButton_99">
+       <property name="geometry">
+        <rect>
+         <x>420</x>
+         <y>320</y>
+         <width>341</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>01 July, Saturday</string>
+       </property>
+      </widget>
+      <widget class="QToolButton" name="toolButton_100">
+       <property name="geometry">
+        <rect>
+         <x>420</x>
+         <y>350</y>
+         <width>341</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>	29 July, Saturday</string>
+       </property>
+      </widget>
+      <widget class="QToolButton" name="toolButton_101">
+       <property name="geometry">
+        <rect>
+         <x>420</x>
+         <y>380</y>
+         <width>341</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>15 August, Tuesday</string>
+       </property>
+      </widget>
+      <widget class="QToolButton" name="toolButton_102">
+       <property name="geometry">
+        <rect>
+         <x>420</x>
+         <y>410</y>
+         <width>341</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>06 September, Wednesday</string>
+       </property>
+      </widget>
+      <widget class="QToolButton" name="toolButton_103">
+       <property name="geometry">
+        <rect>
+         <x>420</x>
+         <y>440</y>
+         <width>341</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>28 September, Thursday</string>
+       </property>
+      </widget>
+      <widget class="QToolButton" name="toolButton_104">
+       <property name="geometry">
+        <rect>
+         <x>420</x>
+         <y>470</y>
+         <width>341</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>24 October, Tuesday</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_43">
+       <property name="geometry">
+        <rect>
+         <x>680</x>
+         <y>520</y>
+         <width>83</width>
+         <height>29</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Next</string>
+       </property>
+      </widget>
+      <widget class="QToolButton" name="toolButton_105">
+       <property name="geometry">
+        <rect>
+         <x>270</x>
+         <y>520</y>
+         <width>351</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>* Subject to the appearance of the Moon.</string>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="Reqrutement_Notice">
+     <widget class="QGroupBox" name="groupBox_13">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>30</y>
+        <width>741</width>
+        <height>251</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">Border:none;</string>
+      </property>
+      <property name="title">
+       <string>Recruitment Notice</string>
+      </property>
+      <widget class="QToolButton" name="toolButton_106">
+       <property name="geometry">
+        <rect>
+         <x>40</x>
+         <y>110</y>
+         <width>661</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>At this time there is no reqrutment,if we need people we will circular it in our website,thank you</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QPushButton" name="pushButton_44">
+      <property name="geometry">
+       <rect>
+        <x>680</x>
+        <y>320</y>
+        <width>83</width>
+        <height>29</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Next</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="pageee28">
+     <widget class="QToolButton" name="toolButton_107">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>80</y>
+        <width>731</width>
+        <height>201</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 16pt &quot;MS Shell Dlg 2&quot;;
+Border:none;</string>
+      </property>
+      <property name="text">
+       <string>Thank you.</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_20">
+      <property name="geometry">
+       <rect>
+        <x>370</x>
+        <y>350</y>
+        <width>83</width>
+        <height>29</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Close</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="pageee29">
+     <widget class="QLineEdit" name="lineEdit_8">
+      <property name="geometry">
+       <rect>
+        <x>240</x>
+        <y>200</y>
+        <width>331</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Successfully you have deposited your money.Thank you</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_22">
+      <property name="geometry">
+       <rect>
+        <x>650</x>
+        <y>320</y>
+        <width>83</width>
+        <height>29</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Next</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="pageee30">
+     <widget class="QLineEdit" name="lineEdit_9">
+      <property name="geometry">
+       <rect>
+        <x>260</x>
+        <y>170</y>
+        <width>331</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Successfully you have withdraw your money.Thank you.</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_57">
+      <property name="geometry">
+       <rect>
+        <x>670</x>
+        <y>310</y>
+        <width>83</width>
+        <height>29</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Next</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page">
+     <widget class="QLineEdit" name="lineEdit_4">
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>40</y>
+        <width>113</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>mounth</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_18">
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>70</y>
+        <width>113</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>taka</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_19">
+      <property name="geometry">
+       <rect>
+        <x>230</x>
+        <y>40</y>
+        <width>113</width>
+        <height>20</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_20">
+      <property name="geometry">
+       <rect>
+        <x>230</x>
+        <y>70</y>
+        <width>113</width>
+        <height>20</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_61">
+      <property name="geometry">
+       <rect>
+        <x>280</x>
+        <y>110</y>
+        <width>75</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>confirm</string>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
